@@ -19,6 +19,12 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.8 (2026-11-13)
+- [system] MangoHud shows in PlayStation games and other 32-bit programs on the Panfrost driver;
+- [system] the MangoHud shortcut says when the Panfrost driver is needed or MangoHud is off;
+- [system] on-screen notices show their text once instead of twice;
+- [launcher] new feature: favorites first in each system's list (list menu, Y);
+
 ## v3.0.2 (2026-11-13)
 - [system] new release: Arch R 3.0.2 images (official), with every update since 3.0.1 and update from the card from the first boot;
 
