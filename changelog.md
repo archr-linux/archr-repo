@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.11 (2026-11-13)
+- [system] fix error reports sent for GameMaker ports that run fine (optional sound module probe) and for the NextOS splash screen;
+
 ## 20261113.10 (2026-11-13)
 - [system] ports on PortMaster's Weston runtime that show a message first (unpacking on the first run) no longer stay on it: the game shows;
 
