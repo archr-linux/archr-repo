@@ -19,6 +19,15 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## v3.0.2 (2026-11-13)
+- [system] new release: Arch R 3.0.2 images (official), with every update since 3.0.1 and update from the card from the first boot;
+
+## 20261113.7 (2026-11-13)
+- [system] fix a launcher-only update leaving its session unit stale until a restart (systemd is reloaded now);
+
+## 20261113.6 (2026-11-13)
+- [launcher] fix game scraping (ScreenScraper) without the project's login: the launcher updates 20261113.4 and .5 were built without it;
+
 ## 20261113.5 (2026-11-13)
 - [system] new feature: update without network: download archr-update.tar on a phone or computer, copy it to roms/update/ on the card and install it from Settings › System › Updates; it is checked against Arch R's signature first;
 - [launcher] new feature: Update from the card on the Updates page, with the file's What's new and a confirmation;
