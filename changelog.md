@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.5 (2026-11-13)
+- [system] new feature: update without network: download archr-update.tar on a phone or computer, copy it to roms/update/ on the card and install it from Settings › System › Updates; it is checked against Arch R's signature first;
+- [launcher] new feature: Update from the card on the Updates page, with the file's What's new and a confirmation;
+
 ## 20261113.4 (2026-11-13)
 - [launcher] new feature: send the last diagnostic report to the developers from Settings › System › Diagnostics (it asks first), and see this console's ID in Error reports;
 - [system] new feature: every console has a stable ID taken from its hardware, carried in its error reports so reports from one console can be told apart;
