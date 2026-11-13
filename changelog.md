@@ -19,6 +19,11 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.4 (2026-11-13)
+- [launcher] new feature: send the last diagnostic report to the developers from Settings › System › Diagnostics (it asks first), and see this console's ID in Error reports;
+- [system] new feature: every console has a stable ID taken from its hardware, carried in its error reports so reports from one console can be told apart;
+- [web] error reports now accept the console ID in their name and the full diagnostic report (.zip, up to 5 MB);
+
 ## 20261113.3 (2026-11-13)
 - [system] fix PortMaster ports printing "tasksetter: No such file or directory" on start (FEZ and other older ports);
 - [system] fix false error reports for GameMaker ports waiting for the user's game files and for Unity games' offline analytics message;
