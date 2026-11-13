@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.3 (2026-11-13)
+- [system] fix PortMaster ports printing "tasksetter: No such file or directory" on start (FEZ and other older ports);
+- [system] fix false error reports for GameMaker ports waiting for the user's game files and for Unity games' offline analytics message;
+
 ## 20261113.2 (2026-11-13)
 - [system] fix system files that only a new image could update (controller setup, CPU speed settings, R36S Clone headphone switch, boot trace): updates now bring them too, so fewer fixes need a reflash;
 
