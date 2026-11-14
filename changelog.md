@@ -19,6 +19,11 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.4 (2026-11-14)
+- [launcher] fix leaving the game switcher going to the first system instead of the last game;
+- [launcher] fix the theme store d-pad changing tabs instead of moving across the grid;
+- [system] fix A and B swapped in the File Manager;
+
 ## 20261114.3 (2026-11-14)
 - [launcher] fix games copied from a PC not showing up until something was downloaded on the console;
 
