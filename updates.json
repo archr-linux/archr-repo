@@ -1,0 +1,60 @@
+{
+  "updates": [
+    {
+      "id": "20261113.11",
+      "date": "2026-11-13",
+      "size": 268769280,
+      "sha256": "b3e5882f71f79f54006dde347eef49cf39ac9800eacaf2980b682aa1fd8c8232",
+      "packages": 32,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.11.tar"
+    },
+    {
+      "id": "20261113.10",
+      "date": "2026-11-13",
+      "size": 268769280,
+      "sha256": "dffa8cf57b780354e985fa72c6d1728ac9a1cb9512a0600f43eed0111e789336",
+      "packages": 32,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.10.tar"
+    },
+    {
+      "id": "20261113.9",
+      "date": "2026-11-13",
+      "size": 268779520,
+      "sha256": "67639cd55c8108482336819eae46deba7f55ba0b4bf9ccdc2abe53aa8a560229",
+      "packages": 32,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.9.tar"
+    },
+    {
+      "id": "20261113.8",
+      "date": "2026-11-13",
+      "size": 268779520,
+      "sha256": "b63c270aa08e1202f15324370e0008aff86f4e57aa0944c2cc969c2a7d61802a",
+      "packages": 32,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.8.tar"
+    },
+    {
+      "id": "20261113.7",
+      "date": "2026-11-13",
+      "size": 262584320,
+      "sha256": "b9572692c4c149aa16f2a795bc8457f99661d9d43e88c515b495ef09a6edb6e8",
+      "packages": 29,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.7.tar"
+    },
+    {
+      "id": "20261113.6",
+      "date": "2026-11-13",
+      "size": 262574080,
+      "sha256": "c294587548618bce1f07b573ac0ad5eb4f281de9333d897fe1694e77c11c205b",
+      "packages": 29,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.6.tar"
+    },
+    {
+      "id": "20261113.5",
+      "date": "2026-11-13",
+      "size": 262584320,
+      "sha256": "105cad0a15af6c1069d3be8c84e8cb766e844a9fb6fa2ba23e2c93ccfb193761",
+      "packages": 29,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261113.5.tar"
+    }
+  ]
+}
