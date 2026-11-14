@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.7 (2026-11-14)
+- [system] fix: error reports no longer flag X-Moto's first run as a failure;
+
 ## 20261114.6 (2026-11-14)
 - [system] fix: Python apps and PySDL2 ports find system libraries again (GameStoreBR stopped with "could not find any library for SDL2");
 
