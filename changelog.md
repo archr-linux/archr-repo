@@ -19,6 +19,16 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.5 (2026-11-14)
+- [system] new feature: a frozen console restarts on its own after 30 s and reports it at the next start;
+- [system] fix random freezes on the R36S Soysauce: SD card powered as the board expects;
+- [launcher] fix coming back to the last game after a restart: only after leaving a game;
+- [launcher] new feature: Start opens the Start Menu inside a game list;
+- [launcher] fix pages opened from the Start Menu not going back to it;
+- [system] fix God of War on PSP: about 17-19 fps instead of 7-8;
+- [system] fix the volume coming back at half after starting at the lowest level;
+- [flasher] flasher 1.3.10: portable Windows build, and the overlay skip option says what it does;
+
 ## 20261114.4 (2026-11-14)
 - [launcher] fix leaving the game switcher going to the first system instead of the last game;
 - [launcher] fix the theme store d-pad changing tabs instead of moving across the grid;
