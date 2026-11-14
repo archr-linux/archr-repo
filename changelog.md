@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261113.12 (2026-11-13)
+- [launcher] fix the launcher not coming back when the screen stays off after the UI restarts; sway is restarted;
+- [launcher] fix module covers in SVG (PortMaster, NFS, file manager, m8c, rclone backup) not showing;
+
 ## 20261113.11 (2026-11-13)
 - [system] fix error reports sent for GameMaker ports that run fine (optional sound module probe) and for the NextOS splash screen;
 - [web] new page: arch-r.io/update explains how to update over the network or from the card, and lists every offline update to download with its size, SHA-256 and notes;
