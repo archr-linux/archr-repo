@@ -19,6 +19,15 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.1 (2026-11-14)
+- [system] fix arcade games in .7z: they open in FinalBurn Neo, MAME 2003-Plus reads only .zip;
+- [system] fix error reports for Weston-runtime ports that run fine;
+- [system] fix controls in older PortMaster ports that use oga_controls;
+- [system] fix unified storage, refused since the move to mergerfs;
+- [system] fix empty error reports when the console is turned off right after one is made;
+- [system] fix Solarus games from PortMaster: physfs added, system LuaJIT used;
+- [system] fix 32-bit GameMaker ports that do not bring libzip;
+
 ## 20261114 (2026-11-14)
 - [system] fix a port deleted without restarting leaving its save folder mounted, breaking the next port that uses the same place (Sword of Jade);
 
