@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.6 (2026-11-14)
+- [system] fix: Python apps and PySDL2 ports find system libraries again (GameStoreBR stopped with "could not find any library for SDL2");
+
 ## 20261114.5 (2026-11-14)
 - [system] new feature: a frozen console restarts on its own after 30 s and reports it at the next start;
 - [system] fix random freezes on the R36S Soysauce: SD card powered as the board expects;
