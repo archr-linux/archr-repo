@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.3 (2026-11-14)
+- [launcher] fix games copied from a PC not showing up until something was downloaded on the console;
+
 ## 20261114.2 (2026-11-14)
 - [system] fix the battery reading 0% after a charge taken with the console off;
 - [system] fix the battery draining while the console is off;
