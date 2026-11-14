@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114 (2026-11-14)
+- [system] fix a port deleted without restarting leaving its save folder mounted, breaking the next port that uses the same place (Sword of Jade);
+
 ## 20261113.12 (2026-11-13)
 - [launcher] fix the launcher not coming back when the screen stays off after the UI restarts; sway is restarted;
 - [launcher] fix module covers in SVG (PortMaster, NFS, file manager, m8c, rclone backup) not showing;
