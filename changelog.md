@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.2 (2026-11-14)
+- [system] fix the battery reading 0% after a charge taken with the console off;
+- [system] fix the battery draining while the console is off;
+
 ## 20261114.1 (2026-11-14)
 - [system] fix arcade games in .7z: they open in FinalBurn Neo, MAME 2003-Plus reads only .zip;
 - [system] fix error reports for Weston-runtime ports that run fine;
