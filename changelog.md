@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## v3.0.3 (2026-11-15)
+- [system] release 3.0.3: official images with every update since 3.0.2, and a first start with the wrong date no longer leaves the console unable to update;
+- [web] docs: what to do when updates fail with "Check network" while the network works (consoles flashed with 3.0.2 or earlier);
+
 ## 20261115.5 (2026-11-15)
 - [launcher] new feature: Settings › Sound and display › Mute (audio.mute); a volume step turns it off;
 - [system] fix the speaker coming back muted after a restart: archr-levels applies the user's mute when the sink appears (a stray WirePlumber mute no longer survives the boot);
