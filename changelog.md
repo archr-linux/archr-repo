@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261115.1 (2026-11-15)
+- [system] fix saved Wi-Fi networks lost on restart (iwd state now on the card); thanks @marianomd for the fix (#53);
+
 ## 20261115 (2026-11-15)
 - [launcher] fix modules timing out at start on a slow CPU profile (initialize now gets 10 s);
 
