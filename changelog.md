@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.10 (2026-11-14)
+- [system] fix: Tools you add to /storage/.config/modules (script and gamelist entry) stay after a restart; only built-in Tools are refreshed (#54);
+- [web] docs: how to add your own Tool in the launcher guide;
+
 ## 20261114.9 (2026-11-14)
 - [system] fix: a reset while the controller settings were being saved no longer stops every later start (the damaged file is set aside and rebuilt);
 
