@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.9 (2026-11-14)
+- [system] fix: a reset while the controller settings were being saved no longer stops every later start (the damaged file is set aside and rebuilt);
+
 ## 20261114.8 (2026-11-14)
 - [system] fix: apps and ports that use the DejaVu fonts show their text again (GameStoreBR opened without letters);
 
