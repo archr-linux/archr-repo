@@ -21,6 +21,8 @@ Newest block first; dates never go up further down. Add entries with
 
 ## 20261115.3 (2026-11-15)
 - [system] fix J2ME games (FreeJ2ME): the Java runtime now installs once on the card instead of downloading on every launch and filling the system partition;
+- [web] overlay generator: the console's own processor table is also offered when it goes higher than ours (R36S boards up to 1512/1608 MHz at the stock voltage);
+- [web] fix the offline overlay generator lagging behind the online one; the site build now refuses an out-of-date offline bundle;
 
 ## 20261115.2 (2026-11-15)
 - [launcher] new feature: controller tester and stick calibration in Settings › Controls (hold Y to calibrate); a calibration never sets a stick below its factory scale;
