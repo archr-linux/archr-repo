@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261115 (2026-11-15)
+- [launcher] fix modules timing out at start on a slow CPU profile (initialize now gets 10 s);
+
 ## 20261114.10 (2026-11-14)
 - [system] fix: Tools you add to /storage/.config/modules (script and gamelist entry) stay after a restart; only built-in Tools are refreshed (#54);
 - [web] docs: how to add your own Tool in the launcher guide;
