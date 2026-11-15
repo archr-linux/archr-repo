@@ -19,6 +19,11 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261115.5 (2026-11-15)
+- [launcher] new feature: Settings › Sound and display › Mute (audio.mute); a volume step turns it off;
+- [system] fix the speaker coming back muted after a restart: archr-levels applies the user's mute when the sink appears (a stray WirePlumber mute no longer survives the boot);
+- [launcher] Date and time is now a page of fields (day, month, year, hour, minute) changed with L/R, then Apply, instead of a typed timestamp;
+
 ## 20261115.4 (2026-11-15)
 - [system] fix Wi-Fi joins failing with "No Agent registered" since 20261115.1: iwd could not watch its state folder through the /var/lib/iwd link (iwd 3.12-6);
 - [launcher] new feature: Settings › Region and language › Date and time, to set the clock by hand;
