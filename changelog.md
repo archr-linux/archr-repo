@@ -19,6 +19,13 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261115.2 (2026-11-15)
+- [launcher] new feature: controller tester and stick calibration in Settings › Controls (hold Y to calibrate); a calibration never sets a stick below its factory scale;
+- [system] fix volume coming back at maximum after a restart (WirePlumber recreated the speaker node without its volume);
+- [system] fix Wi-Fi adapters that refuse the first attempt (wifictl waits for iwd's retry) and a garbled first name in the network list;
+- [system] fix ports copied by hand failing with "Permission denied" (programs get the execute bit);
+- [system] error reports of a freeze carry the end of that boot (persistent journal, 8 MB);
+
 ## 20261115.1 (2026-11-15)
 - [system] fix saved Wi-Fi networks lost on restart (iwd state now on the card); thanks @marianomd for the fix (#53);
 
