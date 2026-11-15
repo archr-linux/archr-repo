@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261115.3 (2026-11-15)
+- [system] fix J2ME games (FreeJ2ME): the Java runtime now installs once on the card instead of downloading on every launch and filling the system partition;
+
 ## 20261115.2 (2026-11-15)
 - [launcher] new feature: controller tester and stick calibration in Settings › Controls (hold Y to calibrate); a calibration never sets a stick below its factory scale;
 - [system] fix volume coming back at maximum after a restart (WirePlumber recreated the speaker node without its volume);
