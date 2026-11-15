@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261114.8 (2026-11-14)
+- [system] fix: apps and ports that use the DejaVu fonts show their text again (GameStoreBR opened without letters);
+
 ## 20261114.7 (2026-11-14)
 - [system] fix: error reports no longer flag X-Moto's first run as a failure;
 - [web] new feature: overlay generator offers the console's own processor speed (stock DTB) for consoles that restart or freeze; ArchR speed stays the default;
