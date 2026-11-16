@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.13 (2026-11-16)
+- [system] fix freezes and restarts under low memory on consoles with an RTL8188EU Wi-Fi dongle;
+
 ## 20261116.12 (2026-11-16)
 - [system] new feature: the kernel runs the RAM at 528 MHz (it stayed at 332 MHz from the factory RAM firmware);
 
