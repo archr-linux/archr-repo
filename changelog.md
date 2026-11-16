@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.10 (2026-11-16)
+- [launcher] fix Start store shortcuts: same update badge as system Updates;
+- [launcher] new feature: notification when theme or module updates are found;
+
 ## 20261116.9 (2026-11-16)
 - [launcher] new feature: Bluetooth button on Start; Wi-Fi and Bluetooth only with an adapter; network and IP caption; Bluetooth icon in the top bar;
 - [system] fix ports made for dArkOS/ArkOS: forced kmsdrm falls back, Debian library paths, oga_events, runtimes downloaded on launch;
