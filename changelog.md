@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.6 (2026-11-16)
+- [launcher] fix System Info: RAM clock under Memory, ROMs partition on the Storage card;
+
 ## 20261116.5 (2026-11-16)
 - [system] fix GPU kernel panic on libmali: the GPU power domain stays on;
 
