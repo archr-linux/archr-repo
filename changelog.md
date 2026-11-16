@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.11 (2026-11-16)
+- [system] fix ports without controls when PortMaster's own tools lost their execute bit;
+
 ## 20261116.10 (2026-11-16)
 - [launcher] fix Start store shortcuts: same update badge as system Updates;
 - [launcher] new feature: notification when theme or module updates are found;
