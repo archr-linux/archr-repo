@@ -19,6 +19,11 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.9 (2026-11-16)
+- [launcher] new feature: Bluetooth button on Start; Wi-Fi and Bluetooth only with an adapter; network and IP caption; Bluetooth icon in the top bar;
+- [system] fix ports made for dArkOS/ArkOS: forced kmsdrm falls back, Debian library paths, oga_events, runtimes downloaded on launch;
+- [system] new feature: a notification says why a port failed (game files, internet, port crash);
+
 ## 20261116.8 (2026-11-16)
 - [system] fix Bluetooth pairing with a device already in the list;
 - [system] Bluetooth name shows the console model (R36S Arch R);
