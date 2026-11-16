@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.8 (2026-11-16)
+- [system] fix Bluetooth pairing with a device already in the list;
+- [system] Bluetooth name shows the console model (R36S Arch R);
+
 ## 20261116.7 (2026-11-16)
 - [system] fix Bluetooth: no adapter was ever registered (L2CAP getsockopt broken in kernel 6.12.114);
 - [system] new feature: a frozen console restarts and records the cause (lockup detectors);
