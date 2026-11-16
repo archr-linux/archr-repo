@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.14 (2026-11-16)
+- [system] the memory switch to 528 MHz waits for the screen and happens in the vertical blank;
+- [system] a game that uses up the memory is closed instead of the console freezing for minutes;
+
 ## 20261116.13 (2026-11-16)
 - [system] fix freezes and restarts under low memory on consoles with an RTL8188EU Wi-Fi dongle;
 
