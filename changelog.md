@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.4 (2026-11-16)
+- [launcher] new feature: notifications in a top corner (Appearance › Notifications);
+- [launcher] new feature: settings with many values open a list with A, grouped when long (#57);
+
 ## 20261116.3 (2026-11-16)
 - [system] fix music player showing an error when closed with the exit shortcut;
 - [web] docs: the exit shortcut (L1 + SELECT + START) closes ports and the music player too;
