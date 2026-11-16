@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.12 (2026-11-16)
+- [system] new feature: the kernel runs the RAM at 528 MHz (it stayed at 332 MHz from the factory RAM firmware);
+
 ## 20261116.11 (2026-11-16)
 - [system] fix ports without controls when PortMaster's own tools lost their execute bit;
 
