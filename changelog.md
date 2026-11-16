@@ -19,6 +19,11 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.2 (2026-11-16)
+- [system] fix Samba from Windows: Windows signs in as root with the system password (it refused guests);
+- [system] fix simple HTTP server: the browser asks again after a wrong password, uploads up to 4 GB;
+- [web] docs: Samba and HTTP server sign in (root and the system password);
+
 ## 20261116.1 (2026-11-16)
 - [system] fix the console settings file being set aside as broken when read while it is written at start;
 - [system] fix R36S Clone headphone jack read the wrong way round;
