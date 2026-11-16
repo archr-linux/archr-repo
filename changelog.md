@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.5 (2026-11-16)
+- [system] fix GPU kernel panic on libmali: the GPU power domain stays on;
+
 ## 20261116.4 (2026-11-16)
 - [launcher] new feature: notifications in a top corner (Appearance › Notifications);
 - [launcher] new feature: settings with many values open a list with A, grouped when long (#57);
