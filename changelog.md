@@ -19,6 +19,12 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261116.1 (2026-11-16)
+- [system] fix the console settings file being set aside as broken when read while it is written at start;
+- [system] fix R36S Clone headphone jack read the wrong way round;
+- [web] fix overlay generator: R36S Clone boards with the speaker on the codec output get the simple sound card by default (#57);
+- [web] new feature: overlay generator option Force amplified audio (AMP), and every option described by its symptom;
+
 ## 20261116 (2026-11-16)
 - [system] fix error reports: a compressed kernel crash record now arrives as text;
 
