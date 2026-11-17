@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261117.3 (2026-11-17)
+- [system] fix: DoubleCherryGB no longer crashes on a game with a save state from another Game Boy core; it refuses the state;
+- [system] fix: an updated RetroArch core is used by the next game instead of after a restart;
+
 ## 20261117.2 (2026-11-17)
 - [system] fix: R36S Soy Sauce with a card in each slot at start: the slots now come up one at a time on their shared power line, so the system card in TF1 always reaches full speed;
 
