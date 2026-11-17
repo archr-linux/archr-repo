@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261117.5 (2026-11-17)
+- [launcher] fix modules that failed once never starting again until a restart;
+
 ## 20261117.4 (2026-11-17)
 - [system] fix the first boot on a slow card stopping the system start-up halfway;
 
