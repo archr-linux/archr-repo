@@ -19,6 +19,10 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261117 (2026-11-17)
+- [system] fix: turning Wi-Fi off no longer sends a false error report (the Wi-Fi service had 1 s to stop and needs a little more);
+- [system] fix: putting in a card with several partitions no longer sends a false error report;
+
 ## 20261116.15 (2026-11-16)
 - [system] R36S Soy Sauce: the TF2 slot sees cards going in and out, like the stock firmware;
 
