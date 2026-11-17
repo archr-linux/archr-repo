@@ -22,6 +22,7 @@ Newest block first; dates never go up further down. Add entries with
 ## 20261117.3 (2026-11-17)
 - [system] fix: DoubleCherryGB no longer crashes on a game with a save state from another Game Boy core; it refuses the state;
 - [system] fix: an updated RetroArch core is used by the next game instead of after a restart;
+- [web] new feature: support page with Pix (QR code and copy button) and Ko-fi; the support popup now leads to it;
 
 ## 20261117.2 (2026-11-17)
 - [system] fix: R36S Soy Sauce with a card in each slot at start: the slots now come up one at a time on their shared power line, so the system card in TF1 always reaches full speed;
