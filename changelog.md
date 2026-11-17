@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261117.2 (2026-11-17)
+- [system] fix: R36S Soy Sauce with a card in each slot at start: the slots now come up one at a time on their shared power line, so the system card in TF1 always reaches full speed;
+
 ## 20261117.1 (2026-11-17)
 - [system] fix: R36S Soy Sauce card slots take their clock from the 50% duty divider like the stock firmware; a card in TF2 no longer re-initialises in a loop;
 
