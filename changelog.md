@@ -19,6 +19,9 @@ Newest block first; dates never go up further down. Add entries with
 `node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
 -->
 
+## 20261117.1 (2026-11-17)
+- [system] fix: R36S Soy Sauce card slots take their clock from the 50% duty divider like the stock firmware; a card in TF2 no longer re-initialises in a loop;
+
 ## 20261117 (2026-11-17)
 - [system] fix: turning Wi-Fi off no longer sends a false error report (the Wi-Fi service had 1 s to stop and needs a little more);
 - [system] fix: putting in a card with several partitions no longer sends a false error report;
