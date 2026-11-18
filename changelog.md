@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.2 (2026-11-18)
+- [system] fix: Soy Sauce card slots run at high speed with 3.3 V, as the stock system, so cards the second slot (TF2) could not read work (#59);
+
 ## 20261118.1 (2026-11-18)
 - [system] fix: error reports keep the audio (PipeWire) log lines, which were taken for passwords and removed;
 
