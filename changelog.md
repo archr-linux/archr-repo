@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.13 (2026-11-18)
+- [system] fix: black screen at boot on some clones (HDMI check took the display from sway);
+- [system] fix: archr-gamma failed and sent an error report at every boot since 20261118.11;
+
 ## 20261118.12 (2026-11-18)
 - [launcher] fix: Settings > Sound and display > Picture redone as designed (preview, panel card, restore, save and undo);
 
