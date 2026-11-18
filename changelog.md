@@ -27,6 +27,11 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.3 (2026-11-18)
+- [system] fix: when the console froze or lost power, the error report carries that boot's own journal (a wrong clock made it pick an older boot);
+- [web] docs: AI skills page covers the ports skill (archr-ports-dev), and Porting to Arch R links to it;
+- [web] fix: no icons in the docs sidebar, and one chevron on Docs and Tools in the sidebar;
+
 ## 20261118.2 (2026-11-18)
 - [system] fix: Soy Sauce card slots run at high speed with 3.3 V, as the stock system, so cards the second slot (TF2) could not read work (#59);
 
