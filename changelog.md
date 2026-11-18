@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.11 (2026-11-18)
+- [launcher] new feature: Settings > Sound and display > Picture, panel gamma and colour temperature;
+- [system] new feature: gamma table on the RK3326 display controller, held by archr-gamma in menus, games and ports;
+
 ## 20261118.10 (2026-11-18)
 - [system] fix PSP games set to Vulkan closing at once when the system SDL cannot draw Vulkan windows: they open in OpenGL;
 
