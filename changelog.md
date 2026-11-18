@@ -7,6 +7,7 @@ newest first. The site shows it at https://arch-r.io/changelog/.
 Format, checked by `npm run changelog:check` and by the site build:
 
   ## <label> (<YYYY-MM-DD>)
+  > **<title>** <sentence>
   - [<tag>] <text>;
 
 label: v3.0.1      a release with images
@@ -15,9 +16,28 @@ label: v3.0.1      a release with images
        site        changes to arch-r.io only, on a day with no console update
 tag:   system, launcher, web, flasher
 
+The "> **<title>** <sentence>" line is optional: the block's highlight, at
+most one, right under its heading. The page shows it first and sets the
+block apart; keep it for the update people should not miss. Title up to 40
+characters, one sentence up to 180, no "*".
+
 Newest block first; dates never go up further down. Add entries with
-`node scripts/changelog.mjs add <tag> "<text>" --block <label>`.
+`node scripts/changelog.mjs add <tag> "<text>" --block <label>`, and the
+highlight with `--highlight "<title>" "<sentence>"` (with or without an
+entry in the same command).
 -->
+
+## 20261117.6 (2026-11-17)
+> **Vulkan on the GPU** With the Panfrost driver, emulators and ports can now run in Vulkan through Mesa's PanVK, chosen per system. The Ellegance theme and the 3.1 theme API arrive with it.
+- [system] new feature: Vulkan through PanVK with the Panfrost driver, turned on per system in Settings › Games › Renderer;
+- [launcher] new feature: the Ellegance theme;
+- [launcher] new feature: theme API 3.1, so a theme can lay out every screen, Settings included;
+- [launcher] change: choosing a theme applies the whole theme;
+- [system] change: PPSSPP 1.20.4, with frame skip 2 by default;
+- [system] fix: texture shaders no longer freeze the console in PPSSPP with Vulkan;
+- [launcher] fix: ScreenScraper sign-in asks for the user name, not the e-mail, and the account row signs out;
+- [system] fix: Settings › Updates shows the installed update after an update made over SSH;
+- [launcher] fix: a game without art shows its console in the home screen and in its details;
 
 ## 20261117.5 (2026-11-17)
 - [launcher] fix modules that failed once never starting again until a restart;
