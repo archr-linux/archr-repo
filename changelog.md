@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.9 (2026-11-18)
+- [system] fix the CPU Turbo switch ignored in games: with it off, games ran at 1512 MHz anyway; now up to 1416 MHz unless it is on;
+- [system] new feature: CPU and GPU ceilings for every game, kept after a restart (archr-perf-limits);
+- [launcher] new feature: modules API, perf-limits permission (CPU and GPU ceilings, GPU benchmark);
+- [web] docs: modules, the perf-limits permission;
+
 ## 20261118.8 (2026-11-18)
 - [system] fix PSP games about 5x slower since 20261117.6: PPSSPP back to 1.20.2 (1.20.4 ran God of War at ~20% speed), Vulkan kept;
 - [system] fix PPSSPP settings changed in PPSSPP itself being reset when a game starts from the menu; only what is set in Arch R for the system or the game is applied;
