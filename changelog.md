@@ -31,6 +31,7 @@ entry in the same command).
 - [system] fix PSP games about 5x slower since 20261117.6: PPSSPP back to 1.20.2 (1.20.4 ran God of War at ~20% speed), Vulkan kept;
 - [system] fix PPSSPP settings changed in PPSSPP itself being reset when a game starts from the menu; only what is set in Arch R for the system or the game is applied;
 - [web] new FAQ entry: changing PPSSPP settings (frame skip, buffer effects) per system or per game;
+- [web] docs: recovery mode (hold Vol- at power on) to reach the card from a PC without taking it out;
 
 ## 20261118.7 (2026-11-18)
 - [system] fix a console left asleep on battery powering off at minimum speed: the menu was killed before it saved its data, and the next boot sent a false abrupt-boot report;
