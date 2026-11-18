@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.6 (2026-11-18)
+- [system] fix: when a game or port runs out of memory, the game is closed and the menu stays (the compositor and launcher are protected from the OOM killer; 512 MB consoles went to a black screen);
+
 ## v3.1.0 (2026-11-18)
 > **Arch R 3.1.0** Vulkan on the Mali-G31, Bluetooth, faster memory and a theme API that changes every screen, in new official images; consoles that update need not flash.
 - [system] release 3.1.0: official images with every update since 3.0.3; Vulkan on the Mali-G31 (PanVK, with the Panfrost driver), Bluetooth, RAM at 528 MHz, Ellegance and theme API 3.1;
