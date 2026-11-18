@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.7 (2026-11-18)
+- [system] fix a console left asleep on battery powering off at minimum speed: the menu was killed before it saved its data, and the next boot sent a false abrupt-boot report;
+
 ## 20261118.6 (2026-11-18)
 - [system] fix: when a game or port runs out of memory, the game is closed and the menu stays (the compositor and launcher are protected from the OOM killer; 512 MB consoles went to a black screen);
 
