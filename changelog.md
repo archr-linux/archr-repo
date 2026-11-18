@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.10 (2026-11-18)
+- [system] fix PSP games set to Vulkan closing at once when the system SDL cannot draw Vulkan windows: they open in OpenGL;
+
 ## 20261118.9 (2026-11-18)
 - [system] fix the CPU Turbo switch ignored in games: with it off, games ran at 1512 MHz anyway; now up to 1416 MHz unless it is on;
 - [system] new feature: CPU and GPU ceilings for every game, kept after a restart (archr-perf-limits);
