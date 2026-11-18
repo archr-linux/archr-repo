@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.4 (2026-11-18)
+- [launcher] fix: Settings show the release the console has reached and the update it is on (v3.0.3 · 20261118.4), and follow an update made while the launcher is open;
+
 ## 20261118.3 (2026-11-18)
 - [system] fix: when the console froze or lost power, the error report carries that boot's own journal (a wrong clock made it pick an older boot);
 - [web] docs: AI skills page covers the ports skill (archr-ports-dev), and Porting to Arch R links to it;
