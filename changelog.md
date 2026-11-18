@@ -27,6 +27,16 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## v3.1.0 (2026-11-18)
+> **Arch R 3.1.0** Vulkan on the Mali-G31, Bluetooth, faster memory and a theme API that changes every screen, in new official images; consoles that update need not flash.
+- [system] release 3.1.0: official images with every update since 3.0.3; Vulkan on the Mali-G31 (PanVK, with the Panfrost driver), Bluetooth, RAM at 528 MHz, Ellegance and theme API 3.1;
+- [web] docs: theme API 3.1, module API 4 (apps), Porting to Arch R and AI skills (archr-launcher-dev, archr-ports-dev) for 3.1.0;
+- [web] overlay generator: base DTBs of the 3.1.0 kernel (Soy Sauce card slots at 3.3 V); offline edition regenerated;
+
+## 20261118.5 (2026-11-18)
+- [system] fix: a console with nothing left to install shows the newest update as its version (a new image showed the date it was built);
+- [system] new: Arch R 3.1.0; consoles that reach this update show v3.1.0 in Settings;
+
 ## 20261118.4 (2026-11-18)
 - [launcher] fix: Settings show the release the console has reached and the update it is on (v3.0.3 · 20261118.4), and follow an update made while the launcher is open;
 
