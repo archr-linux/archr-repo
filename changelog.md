@@ -27,6 +27,13 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.15 (2026-11-18)
+- [system] fix: save sync only writes inside the ROMs folder, whatever names the shared folder lists;
+
+## 20261118.14 (2026-11-18)
+- [launcher] new feature: Settings > System > Save sync (PC folder or rclone cloud, at boot and after games, conflict choice);
+- [system] new feature: archr-savesync, three-way save sync that never deletes; conflicts kept in SaveSync/conflitos;
+
 ## 20261118.13 (2026-11-18)
 - [system] fix: black screen at boot on some clones (HDMI check took the display from sway);
 - [system] fix: archr-gamma failed and sent an error report at every boot since 20261118.11;
