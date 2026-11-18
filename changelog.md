@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.16 (2026-11-18)
+- [launcher] new feature: German and Simplified Chinese languages;
+
 ## 20261118.15 (2026-11-18)
 - [system] fix: save sync only writes inside the ROMs folder, whatever names the shared folder lists;
 
