@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.17 (2026-11-18)
+- [system] fix: SSH never started and retried every 2 s when the host key folder was missing;
+
 ## 20261118.16 (2026-11-18)
 - [launcher] new feature: German and Simplified Chinese languages;
 
