@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261118.1 (2026-11-18)
+- [system] fix: error reports keep the audio (PipeWire) log lines, which were taken for passwords and removed;
+
 ## 20261118 (2026-11-18)
 - [system] fix PlayStation, GBA (gpsp) and DS (DeSmuME) games closing at once on the 32-bit cores after update 20261117.6 (missing 32-bit libfribidi);
 - [system] fix a 32-bit core with the Vulkan renderer: it opens in OpenGL, and its video filters load from the 32-bit folder;
