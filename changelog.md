@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.4 (2026-11-19)
+- [system] new feature: CPU and GPU voltages for modules, from the next boot, with a watchdog over the whole boot and the stock voltages back after two hangs;
+- [launcher] new feature: Modules row in the library, after Tools, with the modules that have a page;
+- [launcher] new feature: Performance and chip 0.3.0 gets a Voltages and overclock page (12.5 mV steps, new 1200 and 1296 MHz CPU steps);
+- [launcher] new feature: module pages can have a side panel, rows that open another page and rows the module fills live;
+
 ## 20261119.3 (2026-11-19)
 - [launcher] fix: System information > Graphics shows the screen's resolution (640 × 480, not the double-buffered 640 × 960);
 
