@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "20261119.3",
+      "date": "2026-11-19",
+      "size": 524677120,
+      "sha256": "5a7b4ba66c1d40454bed885753d0f82ad40b06e14cfbf434895b48756933dee3",
+      "packages": 81,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261119.3.tar"
+    },
+    {
+      "id": "20261119.2",
+      "date": "2026-11-19",
+      "size": 524677120,
+      "sha256": "c9651ddb1e28983d8313ead732dd7f051e3b9b34640fd6be4f8e049f3b5e0a32",
+      "packages": 81,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261119.2.tar"
+    },
+    {
       "id": "20261119.1",
       "date": "2026-11-19",
       "size": 524666880,
