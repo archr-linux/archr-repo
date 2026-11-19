@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.5 (2026-11-19)
+- [system] fix GBA games on Mednafen closing after a few seconds when no gba_bios.bin is in the BIOS folder;
+
 ## 20261119.4 (2026-11-19)
 - [system] new feature: CPU and GPU voltages for modules, from the next boot, with a watchdog over the whole boot and the stock voltages back after two hangs;
 - [launcher] new feature: Modules row in the library, after Tools, with the modules that have a page;
