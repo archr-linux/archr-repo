@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.8 (2026-11-19)
+- [system] flock waits with -w (Cuphead, Wonder Boy); flock and ionice now come from util-linux;
+- [system] German and Chinese messages for port runtimes, save sync conflicts and the MangoHud key;
+
 ## 20261119.7 (2026-11-19)
 - [system] ports made for dArkOS/ArkOS find maxperf, normperf, perfmax, perfnorm, show_splash.sh and lspci (Jedi Outcast, XFCE desktop);
 - [launcher] fix game menu values cut short when their label is short;
