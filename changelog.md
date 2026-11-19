@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.6 (2026-11-19)
+- [system] faster standalone PSP: four PPSSPP settings back to PPSSPP's defaults (once; your own values stay);
+- [launcher] game menu shows (RetroArch) or (standalone) next to the core on systems with both;
+
 ## 20261119.5 (2026-11-19)
 - [system] fix GBA games on Mednafen closing after a few seconds when no gba_bios.bin is in the BIOS folder;
 
