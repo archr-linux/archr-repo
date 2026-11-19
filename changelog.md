@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119 (2026-11-19)
+- [launcher] new feature: Saturation in Settings > Sound and display > Picture (0% to 200%);
+- [system] new feature: screen saturation through the display controller's BCSH block (kernel), applied in menus, games and ports;
+
 ## 20261118.17 (2026-11-18)
 - [system] fix: SSH never started and retried every 2 s when the host key folder was missing;
 
