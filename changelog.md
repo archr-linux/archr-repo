@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.9 (2026-11-19)
+- [system] fix DuckStation closing seconds into every game on panfrost (PanVK only for its Vulkan renderer); its errors reach the error report;
+- [system] fix GPU mode flipping every few seconds while playing on the charger (R36S and clones);
+
 ## 20261119.8 (2026-11-19)
 - [system] flock waits with -w (Cuphead, Wonder Boy); flock and ionice now come from util-linux;
 - [system] German and Chinese messages for port runtimes, save sync conflicts and the MangoHud key;
