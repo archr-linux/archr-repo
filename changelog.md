@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.1 (2026-11-19)
+- [launcher] new feature: Ellegance is the main theme (consoles that never chose a theme open in it);
+- [launcher] fix: every Settings page in Ellegance's style (updates, achievements, stores, module pages, controller test, RetroArch import, BIOS and others);
+
 ## 20261119 (2026-11-19)
 - [launcher] new feature: Saturation in Settings > Sound and display > Picture (0% to 200%);
 - [system] new feature: screen saturation through the display controller's BCSH block (kernel), applied in menus, games and ports;
