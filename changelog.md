@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.7 (2026-11-19)
+- [system] ports made for dArkOS/ArkOS find maxperf, normperf, perfmax, perfnorm, show_splash.sh and lspci (Jedi Outcast, XFCE desktop);
+- [launcher] fix game menu values cut short when their label is short;
+
 ## 20261119.6 (2026-11-19)
 - [system] faster standalone PSP: four PPSSPP settings back to PPSSPP's defaults (once; your own values stay);
 - [launcher] game menu shows (RetroArch) or (standalone) next to the core on systems with both;
