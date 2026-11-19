@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.3 (2026-11-19)
+- [launcher] fix: System information > Graphics shows the screen's resolution (640 × 480, not the double-buffered 640 × 960);
+
+## 20261119.2 (2026-11-19)
+- [launcher] fix: System information follows Ellegance's style, its detail pages included;
+
 ## 20261119.1 (2026-11-19)
 - [launcher] new feature: Ellegance is the main theme (consoles that never chose a theme open in it);
 - [launcher] fix: every Settings page in Ellegance's style (updates, achievements, stores, module pages, controller test, RetroArch import, BIOS and others);
