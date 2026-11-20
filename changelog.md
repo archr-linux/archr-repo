@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261120 (2026-11-20)
+- [launcher] fix: the per-system "Auto save" option is now "Continue where you left"; it only chooses whether a game starts from the state saved on exit;
+- [web] fix: launcher docs describe "Continue where you left" and no longer say Resume needs it;
+
 ## 20261119.11 (2026-11-20)
 - [system] fix: DuckStation no longer closes a few seconds into a game when Vulkan is picked (runs on OpenGL);
 - [system] fix: GTA III closing normally no longer counts as a failure in error reports;
