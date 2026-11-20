@@ -27,6 +27,19 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261119.11 (2026-11-20)
+- [system] fix: DuckStation no longer closes a few seconds into a game when Vulkan is picked (runs on OpenGL);
+- [system] fix: GTA III closing normally no longer counts as a failure in error reports;
+- [system] fix: a file left in the system by a port no longer blocks updates (set aside in .config/archr-update-moved);
+- [system] fix: an RTL8723BU dongle that keeps dropping off a loose hub or OTG adapter no longer crashes the console;
+- [system] fix: an RTL8188EU dongle that drops off while connecting no longer crashes the console;
+- [system] fix: Cuphead and other ports started with setsid --fork --wait no longer close at once;
+- [system] fix: an error report is no longer sent twice when the server answer is lost;
+- [system] fix: an RTL8188EU dongle rejoining the network after sleep no longer crashes the console;
+- [system] fix: a game closed with the exit shortcut no longer counts as out of memory because of an earlier game;
+- [system] fix: an update from a file installs on a console whose clock went back to an old date;
+- [system] fix: PPSSPP no longer offers Vulkan where it cannot start (picking it closed the game);
+
 ## 20261119.10 (2026-11-19)
 - [system] fix: Kodi ports built for ROCKNIX no longer stop on a missing liblcms2.so.2 (shared lcms2 library);
 - [system] fix: TrackWerk and KOReader closing normally no longer send error reports;
