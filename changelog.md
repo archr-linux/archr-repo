@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261121 (2026-11-21)
+- [system] fix: PortMaster's full installer no longer ends with an error (its EmulationStation restart now succeeds);
+
 ## 20261120.1 (2026-11-20)
 - [system] fix: on Panfrost, ports that bundle gl4es run on Mesa's own OpenGL (issue #65, thanks JoseskVolpe);
 - [launcher] new feature: a port that runs only on libmali (Billy Frontier) offers to switch the GPU driver when opened on Panfrost;
