@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261121.2 (2026-11-21)
+- [system] fix: a USB Wi-Fi dongle (RTL8723BU) sending garbage no longer freezes and restarts the console;
+
 ## 20261121.1 (2026-11-21)
 - [launcher] new feature: Settings › Launcher (resync games, remove missing games, show empty systems, clear cover cache, open on at power on, hidden systems, recent games, restart, restore settings, log, version);
 
