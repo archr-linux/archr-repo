@@ -1,6 +1,14 @@
 {
   "updates": [
     {
+      "id": "20261122.5",
+      "date": "2026-11-22",
+      "size": 618557440,
+      "sha256": "ec02d5b797a0f1207d162cadf92407abbde6b7f168500dfe5fae16aa5ca0a01f",
+      "packages": 87,
+      "url": "https://github.com/archr-linux/archr-repo/releases/download/offline/archr-update-20261122.5.tar"
+    },
+    {
       "id": "20261122.4",
       "date": "2026-11-22",
       "size": 611440640,
