@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261122.3 (2026-11-22)
+- [system] fix: a big second card no longer holds the boot for minutes;
+- [system] new feature: /roms2 points at the second card, for ports written for ArkOS;
+
 ## 20261122.2 (2026-11-22)
 - [launcher] new feature: Settings › System › During a game, to stop Wi-Fi, Bluetooth, network sharing or SSH while a game runs;
 - [system] new feature: compressed memory from 512 MB to 2 GB (1 GB by default) and RAM Plus, extra memory on the card;
