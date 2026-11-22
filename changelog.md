@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261122.2 (2026-11-22)
+- [launcher] new feature: Settings › System › During a game, to stop Wi-Fi, Bluetooth, network sharing or SSH while a game runs;
+- [system] new feature: compressed memory from 512 MB to 2 GB (1 GB by default) and RAM Plus, extra memory on the card;
+- [system] fix: a game that brings memory to a stall is closed with a notice instead of the console restarting;
+- [system] fix: PPSSPP with Vulkan chosen no longer falls back to OpenGL after a failed start;
+
 ## 20261122.1 (2026-11-22)
 - [system] fix: an update on weak Wi-Fi keeps downloading while it still moves, instead of giving up after three drops;
 
