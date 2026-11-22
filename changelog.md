@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261122.5 (2026-11-22)
+- [system] fix: ports built on Debian or Ubuntu (Luanti) find the CA certificates for HTTPS;
+
 ## 20261122.4 (2026-11-22)
 - [launcher] new feature: Settings › System › Performance gathers the CPU governor, turbo and the memory settings;
 - [launcher] fix: Information shows compressed memory and RAM Plus on their own lines;
