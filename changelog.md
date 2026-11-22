@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261122.4 (2026-11-22)
+- [launcher] new feature: Settings › System › Performance gathers the CPU governor, turbo and the memory settings;
+- [launcher] fix: Information shows compressed memory and RAM Plus on their own lines;
+
 ## 20261122.3 (2026-11-22)
 - [system] fix: a big second card no longer holds the boot for minutes;
 - [system] new feature: /roms2 points at the second card, for ports written for ArkOS;
