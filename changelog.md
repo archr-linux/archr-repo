@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261122.1 (2026-11-22)
+- [system] fix: an update on weak Wi-Fi keeps downloading while it still moves, instead of giving up after three drops;
+
 ## 20261122 (2026-11-22)
 - [system] fix: the console wakes from sleep with the power button even while a game is busy;
 
