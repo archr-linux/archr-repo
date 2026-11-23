@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261123.2 (2026-11-23)
+- [system] fix: with libmali the GPU no longer runs at its turbo 650 MHz by default (600 MHz, as with panfrost);
+
 ## 20261123.1 (2026-11-23)
 - [system] fix: port controls work again when PortMaster's mapper lost its run permission;
 
