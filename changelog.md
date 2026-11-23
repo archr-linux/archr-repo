@@ -27,6 +27,13 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261123 (2026-11-23)
+- [system] new feature: the GPU can run at its rated 650 MHz, opt-in from the Performance module's GPU ceiling (600 MHz by default);
+- [system] fix: the GPU frequency list shows the real rates (the 560 MHz step ran at 480);
+- [system] fix: GPU driver error handling backported from newer Linux (out-of-memory games no longer leave the GPU half set up);
+- [system] fix: compressed memory packs pages left unread for 5 minutes again, about a quarter smaller;
+- [system] fix: sound no longer goes silent until a reboot when the console runs out of memory;
+
 ## 20261122.5 (2026-11-22)
 - [system] fix: ports built on Debian or Ubuntu (Luanti) find the CA certificates for HTTPS;
 
