@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261123.1 (2026-11-23)
+- [system] fix: port controls work again when PortMaster's mapper lost its run permission;
+
 ## 20261123 (2026-11-23)
 - [system] new feature: the GPU can run at its rated 650 MHz, opt-in from the Performance module's GPU ceiling (600 MHz by default);
 - [system] fix: the GPU frequency list shows the real rates (the 560 MHz step ran at 480);
