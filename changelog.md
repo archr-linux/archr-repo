@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261123.6 (2026-11-23)
+- [system] fix: backup works again on exFAT ROMs cards when a module (Itch.io) keeps files with ':' in their names (checked on the system partition);
+
 ## 20261123.5 (2026-11-23)
 - [system] improvement: PSP on Vulkan (Panfrost) is faster: the driver finds each draw's vertex range on the CPU (idea from Zenith); God of War on Vulkan skips one frame in two (same speed, about 40% more frames);
 
