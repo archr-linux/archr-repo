@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261123.3 (2026-11-23)
+- [system] improvement: faster boot, about 3.5 s sooner to the menu (GPU driver at the start, game folders only when they change, device settings after the menu when nothing changed);
+
 ## 20261123.2 (2026-11-23)
 - [system] fix: with libmali the GPU no longer runs at its turbo 650 MHz by default (600 MHz, as with panfrost);
 
