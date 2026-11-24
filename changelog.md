@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261124.2 (2026-11-24)
+- [system] fix: the install command is back, for ports and scripts that copy their files with it;
+
 ## 20261124.1 (2026-11-24)
 - [system] fix: the exit shortcut (L1 + Select + Start) closes ports too, and the critical battery and long-suspend power off close them;
 - [launcher] FN in a game that saves no state says how to quit it, with the console's exit shortcut;
