@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261124.3 (2026-11-24)
+- [system] fix: random freezes and restarts on the R36S Soysauce, caused by the joypad driver when the rumble motor was not ready at boot;
+
 ## 20261124.2 (2026-11-24)
 - [system] fix: the install command is back, for ports and scripts that copy their files with it;
 
