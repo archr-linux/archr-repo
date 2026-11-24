@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261124 (2026-11-24)
+- [system] fix: random freezes and restarts, even idle: the compressed-memory second tier (zram recompression every 5 min, since 23/11) sometimes corrupted kernel memory; off for now;
+
 ## 20261123.6 (2026-11-23)
 - [system] fix: backup works again on exFAT ROMs cards when a module (Itch.io) keeps files with ':' in their names (checked on the system partition);
 
