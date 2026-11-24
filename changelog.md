@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261124.1 (2026-11-24)
+- [system] fix: the exit shortcut (L1 + Select + Start) closes ports too, and the critical battery and long-suspend power off close them;
+- [launcher] FN in a game that saves no state says how to quit it, with the console's exit shortcut;
+
 ## 20261124 (2026-11-24)
 - [system] fix: random freezes and restarts, even idle: the compressed-memory second tier (zram recompression every 5 min, since 23/11) sometimes corrupted kernel memory; off for now;
 
