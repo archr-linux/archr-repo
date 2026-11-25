@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.8 (2026-11-25)
+- [launcher] module store: Refresh (Y) reads each module's release again, so a module whose release was just fixed can be downloaded at once;
+
 ## 20261125.7 (2026-11-25)
 - [system] the error report of a failed update now carries the end of the update log, so the reason can be found;
 
