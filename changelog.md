@@ -41,6 +41,7 @@ entry in the same command).
 - [launcher] fix: no dark cross through the shadow of round buttons on 1024x768 and 720x720 screens;
 - [launcher] new: Information names the RK3562's GPU (Mali-G52 2EE);
 - [system] fix: an update file for one chip family is refused by consoles of another;
+- [web] overlay generator: the hint for R45H-V22-type boards names the DTB the stock boot.ini loads (gameconsole_linux.dtb, a 1024x768 screen);
 
 ## 20261124.3 (2026-11-24)
 - [system] fix: random freezes and restarts on the R36S Soysauce, caused by the joypad driver when the rumble motor was not ready at boot;
