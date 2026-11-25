@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.1 (2026-11-25)
+- [system] fix: 32-bit ports that ask SDL for the kmsdrm screen now open, with the 32-bit SDL2 of the 3.1.1 images (consoles on 3.1.0 no longer need to flash for it);
+
 ## v3.1.1 (2026-11-25)
 > **Arch R 3.1.1** New official images for the R36S family and the first Beta for the AISLPC RG43V PRO and RG52 MINI; consoles that update need not flash.
 - [system] release 3.1.1: official images for the R36S family with every update since 3.1.0, faster boot, new 32-bit SDL2 for ports and RetroArch saving its settings on exit;
