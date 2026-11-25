@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.11 (2026-11-25)
+- [system] fix: ports that run in the Debian compatibility mode get the console's controller mapping; their controls could stay unmapped;
+
 ## 20261125.10 (2026-11-25)
 - [system] fix: ports on the libmali driver (default on the RG43V PRO and RG52 MINI) draw with OpenGL ES; PortMaster and other ports closed at once;
 
