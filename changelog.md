@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.7 (2026-11-25)
+- [system] the error report of a failed update now carries the end of the update log, so the reason can be found;
+
 ## 20261125.6 (2026-11-25)
 - [system] fix: ports no longer pick up a PortMaster that another system left in the tools folder; they failed at once with "binary operator expected" or missing PortMaster files;
 
