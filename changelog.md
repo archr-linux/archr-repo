@@ -27,6 +27,16 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.4 (2026-11-25)
+- [system] fix: on the R36S Soysauce the controls always come up at boot again; since 20261124.3 the joypad sometimes failed to start and needed several restarts;
+
+## 20261125.3 (2026-11-25)
+- [system] new: port compatibility mode — ports made for other handheld systems that need Debian (apt-get, Debian library names) open with a small Debian runtime downloaded once; Settings › System › Port compatibility and a per-port switch in the game menu;
+- [system] fix: ports that run "sudo VARIABLE=value command" get the variable, as with the real sudo;
+- [system] new: optional AMD FSR 1 upscaling for PSP (PPSSPP), set with psp.upscaler=fsr; off by default;
+- [system] new: AI upscaling on the RG43V PRO and RG52 MINI — the NPU enlarges PSP, PS1 and 16-bit console games; Settings › Games and the game menu, per system and per game;
+- [launcher] new: AI upscaling (NPU) and port compatibility settings; GPU speed setting finds the RG43V PRO's GPU;
+
 ## site (2026-11-25)
 - [web] module store: Desempenho e chip 0.4.0 — CPU benchmarks work again from the Store, GPU ceiling up to 650 MHz on the R36S family, RG43V PRO / RG52 MINI support;
 
