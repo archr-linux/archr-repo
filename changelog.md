@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.10 (2026-11-25)
+- [system] fix: ports on the libmali driver (default on the RG43V PRO and RG52 MINI) draw with OpenGL ES; PortMaster and other ports closed at once;
+
 ## 20261125.9 (2026-11-25)
 - [system] fix: on the RG43V PRO and RG52 MINI, the USB function (file transfer or network) works again after it was turned off once; before, nothing happened until a restart;
 
