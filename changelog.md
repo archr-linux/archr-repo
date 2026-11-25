@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## site (2026-11-25)
+- [web] module store: Desempenho e chip 0.4.0 — CPU benchmarks work again from the Store, GPU ceiling up to 650 MHz on the R36S family, RG43V PRO / RG52 MINI support;
+
 ## 20261125.2 (2026-11-25)
 - [system] the processor no longer idles at 408 MHz, a speed Linux dropped in 2019 for instability; it idles at 600 MHz, and the 1200 and 1296 MHz steps are back;
 - [system] the second tier of compressed memory is back on; it was not the cause of the freezes, which came from the 408 MHz idle speed;
