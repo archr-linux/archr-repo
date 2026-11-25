@@ -28,7 +28,7 @@ entry in the same command).
 -->
 
 ## 20261125.6 (2026-11-25)
-- [system] fix: ports no longer pick up a PortMaster that another system (dArkOS) left in the tools folder; they failed at once with "binary operator expected" or missing PortMaster files;
+- [system] fix: ports no longer pick up a PortMaster that another system left in the tools folder; they failed at once with "binary operator expected" or missing PortMaster files;
 
 ## 20261125.5 (2026-11-25)
 - [system] RG43V PRO / RG52 MINI: Mesa 26.3.1, Vulkan 1.3 and faster Vulkan on the open driver (panfrost); fixes for crashes when a game closes; nothing changes under the default libmali driver;
