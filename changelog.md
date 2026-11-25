@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.2 (2026-11-25)
+- [system] the processor no longer idles at 408 MHz, a speed Linux dropped in 2019 for instability; it idles at 600 MHz, and the 1200 and 1296 MHz steps are back;
+- [system] the second tier of compressed memory is back on; it was not the cause of the freezes, which came from the 408 MHz idle speed;
+- [system] voltages tuned in Performance and chip go back to stock after this update, since the processor table changed; a message says so;
+- [web] overlay generator: base device trees with the new processor table; a stock table that stops at 1296 MHz now only turns off the speeds above it;
+
 ## 20261125.1 (2026-11-25)
 - [system] fix: 32-bit ports that ask SDL for the kmsdrm screen now open, with the 32-bit SDL2 of the 3.1.1 images (consoles on 3.1.0 no longer need to flash for it);
 
