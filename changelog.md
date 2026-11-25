@@ -27,6 +27,21 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## v3.1.1 (2026-11-25)
+> **Arch R 3.1.1** New official images for the R36S family and the first Beta for the AISLPC RG43V PRO and RG52 MINI; consoles that update need not flash.
+- [system] release 3.1.1: official images for the R36S family with every update since 3.1.0, faster boot, new 32-bit SDL2 for ports and RetroArch saving its settings on exit;
+- [system] release 3.1.1 Beta 1: first Arch R for the AISLPC RG43V PRO and RG52 MINI (RK3562, Linux 7.3, Mali-G52 on libmali), with rumble, stick LEDs and its own update channel; HDMI comes later by update;
+- [flasher] new: 1.4.0 lists the AISLPC RG43V PRO and RG52 MINI, sets their boot file instead of an overlay, and can download an image without flashing;
+- [web] docs: RG43V PRO and RG52 MINI guide, devices, install, controls, updates and build pages for 3.1.1;
+- [web] overlay generator: RK915 Wi-Fi of R36S Ultra X-type clones from the stock DTB; base DTBs of the 3.1.1 kernel;
+
+## 20261125 (2026-11-25)
+- [system] new: Arch R 3.1.1; consoles that reach this update show v3.1.1 in Settings (v3.1.1 - Beta 1 on the RG43V PRO and RG52 MINI);
+- [launcher] fix: a wide game grid (Tools) no longer keeps reloading its covers while you scroll;
+- [launcher] fix: no dark cross through the shadow of round buttons on 1024x768 and 720x720 screens;
+- [launcher] new: Information names the RK3562's GPU (Mali-G52 2EE);
+- [system] fix: an update file for one chip family is refused by consoles of another;
+
 ## 20261124.3 (2026-11-24)
 - [system] fix: random freezes and restarts on the R36S Soysauce, caused by the joypad driver when the rumble motor was not ready at boot;
 - [web] fix: DTB generator powers the RK915 Wi-Fi of R36S Ultra X-type clones (pins from the factory DTB);
