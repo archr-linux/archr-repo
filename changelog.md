@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.5 (2026-11-25)
+- [system] RG43V PRO / RG52 MINI: Mesa 26.3.1, Vulkan 1.3 and faster Vulkan on the open driver (panfrost); fixes for crashes when a game closes; nothing changes under the default libmali driver;
+- [system] RG43V PRO / RG52 MINI: fix the offline update file of 20261125.3, which the console refused as another channel's;
+
 ## 20261125.4 (2026-11-25)
 - [system] fix: on the R36S Soysauce the controls always come up at boot again; since 20261124.3 the joypad sometimes failed to start and needed several restarts;
 
