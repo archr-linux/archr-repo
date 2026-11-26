@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.1 (2026-11-26)
+- [system] fix: ports in the compatibility mode can mount their PortMaster runtimes again (The Binding of Isaac: Rebirth); mount, umount and lsusb were missing;
+
 ## 20261126 (2026-11-26)
 - [system] fix: the console keeps which update it has across reboots; Settings and error reports no longer fall back to the card image's version until it goes online;
 - [web] docs: converting an EmulationStation theme;
