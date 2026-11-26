@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.18 (2026-11-26)
 - [launcher] free theme screens: a video element (the game's video or a system video from the theme), after a short wait, with a picture before it starts; follows the Preview video setting;
+- [web] docs: free screens phase 4 (video element);
 
 ## 20261125.17 (2026-11-26)
 - [launcher] free theme screens: carousels (row, column or tilted wheel, with slide and reflection), cover grids and styled lists, one navigation rule for every theme;
