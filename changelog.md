@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.12 (2026-11-25)
+- [system] new: SDL3 and the 64-bit libssl 1.1 for ports (Dusklight, Monster Hunter Tri and others built for them);
+
 ## 20261125.11 (2026-11-25)
 - [system] fix: ports that run in the Debian compatibility mode get the console's controller mapping; their controls could stay unmapped;
 
