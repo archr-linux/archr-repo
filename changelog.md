@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126 (2026-11-26)
+- [system] fix: the console keeps which update it has across reboots; Settings and error reports no longer fall back to the card image's version until it goes online;
+
 ## 20261125.21 (2026-11-26)
 - [launcher] themes: the game details screen can be laid out freely too (cover, card, screenshot, video, scrolling description, buttons);
 - [web] docs: the details screen as a free screen;
