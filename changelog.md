@@ -27,6 +27,11 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.3 (2026-11-26)
+- [launcher] fix: deleting the last game of a system goes back to the home screen;
+- [system] new feature: updates install a new kernel first, alone;
+- [system] fix: a PortMaster runtime cut short is detected and downloaded again;
+
 ## 20261126.2 (2026-11-26)
 - [system] fix: ports that ship their own libreadline (F1 Spirit) no longer break every shell they start;
 - [system] new feature: error reports show the free space of the ROMs partition;
