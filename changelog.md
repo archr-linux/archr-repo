@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.14 (2026-11-25)
+- [launcher] new feature: delete a game or a port from the game menu (Y), after a question that lists what goes; saves stay;
+- [system] fix: ports in the Debian compatibility mode keep the console's graphics libraries (KPlayer stopped with libgbm.so.1 missing);
+
 ## 20261125.13 (2026-11-25)
 - [system] new: Game Console R45H/R46H screen (1024x768): a kernel change makes its panel show a picture; restart after the update;
 - [web] generator: makes a working overlay for the Game Console R45H/R46H, screen and Wi-Fi included (needs update 20261125.13);
