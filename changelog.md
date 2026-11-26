@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.15 (2026-11-25)
+- [launcher] new feature: free theme screens: a theme can place every element of the systems and games screens anywhere, in layers, with per-system art, game data, variables and conditions; existing themes unchanged;
+
 ## 20261125.14 (2026-11-25)
 - [launcher] new feature: delete a game or a port from the game menu (Y), after a question that lists what goes; saves stay;
 - [system] fix: ports in the Debian compatibility mode keep the console's graphics libraries (KPlayer stopped with libgbm.so.1 missing);
