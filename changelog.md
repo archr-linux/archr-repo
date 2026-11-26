@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.20 (2026-11-26)
+- [launcher] themes: elements animate when a screen opens and when you move to another item (slide, fade, grow), following Settings › Animations;
+
 ## 20261125.19 (2026-11-26)
 - [launcher] themes: options you pick in Settings › Appearance (colors, art, font size...), themes split into several files, and views built on top of another;
 - [web] docs: theme options, include and view inheritance;
