@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.16 (2026-11-26)
 - [launcher] free theme screens: system logos and images, game cover, screenshot and logo, rating stars and an info card;
+- [web] docs: free screens phase 2 (system and game images, stars, info card);
 
 ## 20261125.15 (2026-11-25)
 - [launcher] new feature: free theme screens: a theme can place every element of the systems and games screens anywhere, in layers, with per-system art, game data, variables and conditions; existing themes unchanged;
