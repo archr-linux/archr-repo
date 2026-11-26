@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261126 (2026-11-26)
 - [system] fix: the console keeps which update it has across reboots; Settings and error reports no longer fall back to the card image's version until it goes online;
+- [web] docs: converting an EmulationStation theme;
 
 ## 20261125.21 (2026-11-26)
 - [launcher] themes: the game details screen can be laid out freely too (cover, card, screenshot, video, scrolling description, buttons);
