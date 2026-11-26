@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.21 (2026-11-26)
 - [launcher] themes: the game details screen can be laid out freely too (cover, card, screenshot, video, scrolling description, buttons);
+- [web] docs: the details screen as a free screen;
 
 ## 20261125.20 (2026-11-26)
 - [launcher] themes: elements animate when a screen opens and when you move to another item (slide, fade, grow), following Settings › Animations;
