@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.2 (2026-11-26)
+- [system] fix: ports that ship their own libreadline (F1 Spirit) no longer break every shell they start;
+- [system] new feature: error reports show the free space of the ROMs partition;
+
 ## 20261126.1 (2026-11-26)
 - [system] fix: ports in the compatibility mode can mount their PortMaster runtimes again (The Binding of Isaac: Rebirth); mount, umount and lsusb were missing;
 
