@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.19 (2026-11-26)
 - [launcher] themes: options you pick in Settings › Appearance (colors, art, font size...), themes split into several files, and views built on top of another;
+- [web] docs: theme options, include and view inheritance;
 
 ## 20261125.18 (2026-11-26)
 - [launcher] free theme screens: a video element (the game's video or a system video from the theme), after a short wait, with a picture before it starts; follows the Preview video setting;
