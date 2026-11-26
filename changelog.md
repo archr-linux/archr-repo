@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.17 (2026-11-26)
 - [launcher] free theme screens: carousels (row, column or tilted wheel, with slide and reflection), cover grids and styled lists, one navigation rule for every theme;
+- [web] docs: free screens phase 3 (carousels, wheels, grids, navigation);
 
 ## 20261125.16 (2026-11-26)
 - [launcher] free theme screens: system logos and images, game cover, screenshot and logo, rating stars and an info card;
