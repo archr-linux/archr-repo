@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261125.15 (2026-11-25)
 - [launcher] new feature: free theme screens: a theme can place every element of the systems and games screens anywhere, in layers, with per-system art, game data, variables and conditions; existing themes unchanged;
+- [web] docs: free theme screens in Create themes, with examples and screenshots;
 
 ## 20261125.14 (2026-11-25)
 - [launcher] new feature: delete a game or a port from the game menu (Y), after a question that lists what goes; saves stay;
