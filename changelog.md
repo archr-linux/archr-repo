@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.16 (2026-11-26)
+- [launcher] free theme screens: system logos and images, game cover, screenshot and logo, rating stars and an info card;
+
 ## 20261125.15 (2026-11-25)
 - [launcher] new feature: free theme screens: a theme can place every element of the systems and games screens anywhere, in layers, with per-system art, game data, variables and conditions; existing themes unchanged;
 - [web] docs: free theme screens in Create themes, with examples and screenshots;
