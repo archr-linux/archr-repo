@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261125.13 (2026-11-25)
+- [system] new: Game Console R45H/R46H screen (1024x768): a kernel change makes its panel show a picture; restart after the update;
+- [web] generator: makes a working overlay for the Game Console R45H/R46H, screen and Wi-Fi included (needs update 20261125.13);
+
 ## 20261125.12 (2026-11-25)
 - [system] new: SDL3 and the 64-bit libssl 1.1 for ports (Dusklight, Monster Hunter Tri and others built for them);
 - [web] docs: theme and module guides match today's launcher (screen sizes up to 1280x720, min_launcher, module release assets, Refresh, review badge);
