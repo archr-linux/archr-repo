@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.7 (2026-11-27)
+- [system] fix: EasyRPG, a game that cannot load no longer crashes RetroArch: it shows the error for a few seconds and goes back to the launcher, and so does the game's own Exit (easyrpg-lr pkgrel 3, archr 86);
+
 ## 20261127.6 (2026-11-27)
 - [system] fix: out of memory, a port started from PortMaster's menu in Tools is closed before the system services (Wi-Fi, display), like any other game (launcher b2929f4);
 
