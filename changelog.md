@@ -27,6 +27,15 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## v3.1.2 (2026-11-27)
+> **Arch R 3.1.2** If your R36S restarts or freezes on its own, this release may fix it: new official images with Rockchip's BL31 v1.37, plus every freeze fix since 3.1.1.
+- [system] release 3.1.2: official images for the R36S family with every update since 3.1.1 and Rockchip's BL31 v1.37, which fixes a rare crash when the memory speed changes at every power on (only a new image brings it);
+- [system] release 3.1.2: the AISLPC RG43V PRO and RG52 MINI keep the 3.1.1 Beta 1 image, attached to the 3.1.2 release too; their fixes come by update;
+
+## 20261127.11 (2026-11-27)
+- [system] new: Arch R 3.1.2; consoles that reach this update show v3.1.2 in Settings;
+- [system] fix: PortMaster recognizes the AISLPC handhelds on the R36S channel too (portmaster 15);
+
 ## 20261127.10 (2026-11-27)
 - [launcher] fix: the theme store installs large themes such as Solo (70 MB); it refused themes over 25 MB, and big downloads get more time on slow Wi-Fi (launcher 66dc2ec);
 
