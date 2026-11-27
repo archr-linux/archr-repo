@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.12 (2026-11-27)
+- [launcher] new feature: installing from the theme or module store shows a progress window (step, bytes, speed, time left); B cancels a theme download (launcher 376b895);
+
 ## v3.1.2 (2026-11-27)
 > **Arch R 3.1.2** If your R36S restarts or freezes on its own, this release may fix it: new official images with Rockchip's BL31 v1.37, plus every freeze fix since 3.1.1.
 - [system] release 3.1.2: official images for the R36S family with every update since 3.1.1 and Rockchip's BL31 v1.37, which fixes a rare crash when the memory speed changes at every power on (only a new image brings it);
