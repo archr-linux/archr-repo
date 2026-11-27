@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.2 (2026-11-27)
+- [system] fix: the in-game screenshot shortcut (L1 + B) no longer holds up the other buttons; a game that uses L1 and B together queued minutes of captures and the power button seemed dead;
+
 ## 20261127.1 (2026-11-27)
 - [system] fix: PortMaster's own installers install into ports again; the full one filled a small system folder and closed the launcher;
 - [launcher] fix: no false warnings about a store theme's images in the log;
