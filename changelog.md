@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.6 (2026-11-26)
+- [launcher] new feature: themes say which launcher they need; the theme store refuses one made for a newer launcher instead of installing it broken (launcher 0.2.0);
+- [web] fix: Albedo 1.0.2 needs launcher 0.2.0;
+
 ## 20261126.5 (2026-11-26)
 - [launcher] new feature: each theme opens with its own view; choosing a theme switches to it;
 - [launcher] fix: the Theme options row opens its page (it read Unavailable);
