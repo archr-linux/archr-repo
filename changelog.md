@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.7 (2026-11-26)
+- [system] fix: RTL8188EUS (8188eu) Wi-Fi dongles no longer crash the console when the network's entry expires while connecting;
+
 ## 20261126.6 (2026-11-26)
 - [launcher] new feature: themes say which launcher they need; the theme store refuses one made for a newer launcher instead of installing it broken (launcher 0.2.0);
 - [web] fix: Albedo 1.0.2 needs launcher 0.2.0;
