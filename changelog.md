@@ -27,6 +27,11 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.17 (2026-11-27)
+- [launcher] new feature: app detail screens show their wait by the buttons (steps, bytes, speed, time left; A cancels a download); buttons always on one line with whole words; launcher 0.5.0 (3b7f58c);
+- [system] fix: after an update the overlay (volume, cards, the screen before a game) restarts at once instead of at the next boot;
+- [web] docs: module API, detail waits (transfer), button hint and disabled;
+
 ## 20261127.16 (2026-11-27)
 - [launcher] new feature: screen before a game while it downloads a PortMaster runtime or the Debian runtime, the RPG Maker files, or unpacks a Dreamcast disc: steps, bytes, speed and time left instead of a black screen; B cancels; launcher 0.4.0 (dac60a9);
 - [system] fix: the panfrost GPU power domain fix now also reaches the RG43V Pro;
