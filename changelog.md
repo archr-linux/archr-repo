@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.3 (2026-11-27)
+- [system] fix: EasyRPG downloads the RPG Maker 2000/2003 run-time files again (their old address no longer exists); a failed download is retried instead of counting as installed;
+
 ## 20261127.2 (2026-11-27)
 - [system] fix: the in-game screenshot shortcut (L1 + B) no longer holds up the other buttons; a game that uses L1 and B together queued minutes of captures and the power button seemed dead;
 
