@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.9 (2026-11-27)
+- [system] fix: compatibility mode (Debian), ports and tools made on dArkOS find an /etc/profile, and the controller mapping is made for them however they start (archr 87);
+
 ## 20261127.8 (2026-11-27)
 - [system] fix: PortMaster recognizes the RG43V PRO and the RG52 MINI; it took the RG43V PRO for a TrimUI Brick (no analog sticks) and the RG52 MINI for a TrimUI Smart Pro (portmaster 15, RG43V/RG52 channel);
 
