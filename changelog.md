@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.18 (2026-11-27)
+- [system] fix: ports made for dArkOS/ArkOS that call love (LÖVE) run with PortMaster's LÖVE 11.5 runtime instead of failing with "love: command not found";
+
 ## 20261127.17 (2026-11-27)
 - [launcher] new feature: app detail screens show their wait by the buttons (steps, bytes, speed, time left; A cancels a download); buttons always on one line with whole words; launcher 0.5.0 (3b7f58c);
 - [system] fix: after an update the overlay (volume, cards, the screen before a game) restarts at once instead of at the next boot;
