@@ -27,6 +27,12 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.5 (2026-11-27)
+- [system] fix: the update itself moves a console set to a kernel sleep mode back to the alternative sleep, without waiting for a restart (quirks 2.1-10);
+
+## 20261127.4 (2026-11-27)
+- [system] fix: the R36S family no longer offers the kernel sleep modes, which froze the console on the power button until a reset; a console set to one goes back to the alternative sleep (launcher 71647df, quirks 2.1-9);
+
 ## 20261127.3 (2026-11-27)
 - [system] fix: EasyRPG downloads the RPG Maker 2000/2003 run-time files again (their old address no longer exists); a failed download is retried instead of counting as installed;
 - [web] new feature: Solo theme in the Theme store (Alekfull-SOLO by fagnerpc, ArkOS fork by AeolusUX; needs launcher 0.2.0);
