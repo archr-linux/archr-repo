@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.10 (2026-11-27)
+- [launcher] fix: the theme store installs large themes such as Solo (70 MB); it refused themes over 25 MB, and big downloads get more time on slow Wi-Fi (launcher 66dc2ec);
+
 ## 20261127.9 (2026-11-27)
 - [system] fix: compatibility mode (Debian), ports and tools made on dArkOS find an /etc/profile, and the controller mapping is made for them however they start (archr 87);
 
