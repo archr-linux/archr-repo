@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127 (2026-11-27)
+- [system] fix: the compatibility mode's Debian runtime now has mount, lsusb, the ALSA and PulseAudio tools, ip, ping, bc, xxd, zip, 7z, fbset and more that port scripts call;
+
 ## 20261126.9 (2026-11-26)
 - [launcher] fix: Settings show this console's own Samba share name (\\archr-xxxx) instead of \\archr;
 - [web] fix: the file sharing page uses the console's own name and signs in as root;
