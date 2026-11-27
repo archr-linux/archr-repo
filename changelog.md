@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.5 (2026-11-26)
+- [launcher] new feature: each theme opens with its own view; choosing a theme switches to it;
+- [launcher] fix: the Theme options row opens its page (it read Unavailable);
+
 ## 20261126.4 (2026-11-26)
 - [launcher] fix: themes that tile a small pattern (Albedo's scanlines) draw in one copy; system screens and entering a system no longer stutter;
 - [launcher] fix: one press moves the system wheel one step, even after a slow frame;
