@@ -29,6 +29,7 @@ entry in the same command).
 
 ## 20261126.8 (2026-11-26)
 - [system] fix: ScummVM no longer crashes at start with the FPS overlay (MangoHud) on;
+- [web] fix: the changelog page no longer swaps the newest entries for an older cached copy; it is split into pages;
 
 ## 20261126.7 (2026-11-26)
 - [system] fix: RTL8188EUS (8188eu) Wi-Fi dongles no longer crash the console when the network's entry expires while connecting;
