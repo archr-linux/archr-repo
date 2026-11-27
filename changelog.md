@@ -27,6 +27,14 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.4 (2026-11-26)
+- [launcher] fix: themes that tile a small pattern (Albedo's scanlines) draw in one copy; system screens and entering a system no longer stutter;
+- [launcher] fix: one press moves the system wheel one step, even after a slow frame;
+- [launcher] fix: pictures load what is on screen first;
+- [launcher] fix: a selected slider shows its value; the last Settings entry stays above the footer;
+- [launcher] new feature: theme frame elements take a tint; app rows use the module id for their pictures;
+- [web] new feature: Albedo theme in the Theme store;
+
 ## 20261126.3 (2026-11-26)
 - [launcher] fix: deleting the last game of a system goes back to the home screen;
 - [system] new feature: updates install a new kernel first, alone;
