@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.1 (2026-11-27)
+- [system] fix: PortMaster's own installers install into ports again; the full one filled a small system folder and closed the launcher;
+- [launcher] fix: no false warnings about a store theme's images in the log;
+
 ## 20261127 (2026-11-27)
 - [system] fix: the compatibility mode's Debian runtime now has mount, lsusb, the ALSA and PulseAudio tools, ip, ping, bc, xxd, zip, 7z, fbset and more that port scripts call;
 
