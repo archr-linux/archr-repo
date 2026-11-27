@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.8 (2026-11-27)
+- [system] fix: PortMaster recognizes the RG43V PRO and the RG52 MINI; it took the RG43V PRO for a TrimUI Brick (no analog sticks) and the RG52 MINI for a TrimUI Smart Pro (portmaster 15, RG43V/RG52 channel);
+
 ## 20261127.7 (2026-11-27)
 - [system] fix: EasyRPG, a game that cannot load no longer crashes RetroArch: it shows the error for a few seconds and goes back to the launcher, and so does the game's own Exit (easyrpg-lr pkgrel 3, archr 86);
 
