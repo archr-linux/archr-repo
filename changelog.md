@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.16 (2026-11-27)
+- [launcher] new feature: screen before a game while it downloads a PortMaster runtime or the Debian runtime, the RPG Maker files, or unpacks a Dreamcast disc: steps, bytes, speed and time left instead of a black screen; B cancels; launcher 0.4.0 (dac60a9);
+- [system] fix: the panfrost GPU power domain fix now also reaches the RG43V Pro;
+
 ## 20261127.15 (2026-11-27)
 - [launcher] fix: a game reopened at power on (Resume) that froze or reset the console is not reopened at the next power on; launcher 0.3.1 (3c2e09e);
 
