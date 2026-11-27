@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.6 (2026-11-27)
+- [system] fix: out of memory, a port started from PortMaster's menu in Tools is closed before the system services (Wi-Fi, display), like any other game (launcher b2929f4);
+
 ## 20261127.5 (2026-11-27)
 - [system] fix: the update itself moves a console set to a kernel sleep mode back to the alternative sleep, without waiting for a restart (quirks 2.1-10);
 
