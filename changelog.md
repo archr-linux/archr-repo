@@ -27,6 +27,9 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.15 (2026-11-27)
+- [launcher] fix: a game reopened at power on (Resume) that froze or reset the console is not reopened at the next power on; launcher 0.3.1 (3c2e09e);
+
 ## 20261127.14 (2026-11-27)
 - [system] fix: with the panfrost GPU driver the GPU power domain stays up, as with libmali; an idle GPU that failed to come back after a reset froze the console (kernel panic);
 
