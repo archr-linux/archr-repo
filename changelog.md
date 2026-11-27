@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261127.13 (2026-11-27)
+- [launcher] new feature: Port compatibility shows the Debian download on its row (percent, bytes, speed, time left) and A cancels it; launcher 0.3.0 (ab1e6d3);
+- [launcher] fix: messages on the compatibility, save sync and controls pages showed as a generic failure;
+
 ## 20261127.12 (2026-11-27)
 - [launcher] new feature: installing from the theme or module store shows a progress window (step, bytes, speed, time left); B cancels a theme download (launcher 376b895);
 
