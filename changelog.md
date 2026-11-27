@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261126.9 (2026-11-26)
+- [launcher] fix: Settings show this console's own Samba share name (\\archr-xxxx) instead of \\archr;
+- [web] fix: the file sharing page uses the console's own name and signs in as root;
+
 ## 20261126.8 (2026-11-26)
 - [system] fix: ScummVM no longer crashes at start with the FPS overlay (MangoHud) on;
 - [web] fix: the changelog page no longer swaps the newest entries for an older cached copy; it is split into pages;
