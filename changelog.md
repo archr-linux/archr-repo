@@ -30,6 +30,7 @@ entry in the same command).
 ## 20261127.3 (2026-11-27)
 - [system] fix: EasyRPG downloads the RPG Maker 2000/2003 run-time files again (their old address no longer exists); a failed download is retried instead of counting as installed;
 - [web] new feature: Solo theme in the Theme store (Alekfull-SOLO by fagnerpc, ArkOS fork by AeolusUX; needs launcher 0.2.0);
+- [web] overlay generator: new option to turn on the USB port's power from PB7 (OTG), for R36S boards whose Wi-Fi dongle gets no power;
 
 ## 20261127.2 (2026-11-27)
 - [system] fix: the in-game screenshot shortcut (L1 + B) no longer holds up the other buttons; a game that uses L1 and B together queued minutes of captures and the power button seemed dead;
