@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261128 (2026-11-28)
+- [launcher] new feature: themes converted from ES-DE draw like the original: per-system values ([system.<id>.vars]), elements only in collections (when.collection), ${game.players.count}; an element at opacity 0 is not drawn; launcher 0.6.0 (183bcd1);
+- [system] fix: ports made for PC that call unclutter-remote (show/hide the mouse pointer) no longer fail;
+
 ## 20261127.18 (2026-11-27)
 - [system] fix: ports made for dArkOS/ArkOS that call love (LÖVE) run with PortMaster's LÖVE 11.5 runtime instead of failing with "love: command not found";
 - [web] module store: Itch.io 0.3.0 — bought games (sign in with the phone once itch.io allows it, or with an API key in the settings), a download's progress and speed on the game's page, A cancels a download (needs launcher 0.5.0);
