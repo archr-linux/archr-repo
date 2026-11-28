@@ -30,6 +30,7 @@ entry in the same command).
 ## 20261128 (2026-11-28)
 - [launcher] new feature: themes converted from ES-DE draw like the original: per-system values ([system.ID.vars]), elements only in collections (when.collection), ${game.players.count}; an element at opacity 0 is not drawn; launcher 0.6.0 (183bcd1);
 - [system] fix: ports made for PC that call unclutter-remote (show/hide the mouse pointer) no longer fail;
+- [web] docs: themes for launcher 0.6.0 (per-system values, when.collection, ES-DE themes);
 
 ## 20261127.18 (2026-11-27)
 - [system] fix: ports made for dArkOS/ArkOS that call love (LÖVE) run with PortMaster's LÖVE 11.5 runtime instead of failing with "love: command not found";
