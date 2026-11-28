@@ -27,6 +27,10 @@ highlight with `--highlight "<title>" "<sentence>"` (with or without an
 entry in the same command).
 -->
 
+## 20261128.2 (2026-11-28)
+- [launcher] new feature: the theme store installs a theme's clips (mp4 up to 8 MB) and shows its whole author and license; a rounded tinted picture keeps its tint; the quick menu shows one row of button hints; launcher 0.6.1 (9d1f54a);
+- [web] theme store: Atelier 1.0.1, readable option names and no white box for a game without a cover;
+
 ## 20261128.1 (2026-11-28)
 - [system] fix: error reports show the screen size a port really ran at (a 640x480 console no longer reads 1024x768);
 - [web] theme store: Atelier 1.0.0 (by gerrykeys, from ES-DE), line drawings of every controller and the history of each system; needs launcher 0.6.0;
