@@ -31,6 +31,7 @@ entry in the same command).
 - [system] fix: ports made for dArkOS/ArkOS that call love (LÖVE) run with PortMaster's LÖVE 11.5 runtime instead of failing with "love: command not found";
 - [web] module store: Itch.io 0.3.0 — bought games (sign in with the phone once itch.io allows it, or with an API key in the settings), a download's progress and speed on the game's page, A cancels a download (needs launcher 0.5.0);
 - [web] module store: Itch.io 0.3.1 — signing in with the phone works (itch.io's login finished on arch-r.io/itchio/callback; the one-time code it leaves there is useless without the secret that stays on the console);
+- [flasher] fix: 1.4.1 — on Windows, "Verification failed" on good cards: automount is off while flashing and the partition table is written last; a failed verify logs where the card differs;
 
 ## 20261127.17 (2026-11-27)
 - [launcher] new feature: app detail screens show their wait by the buttons (steps, bytes, speed, time left; A cancels a download); buttons always on one line with whole words; launcher 0.5.0 (3b7f58c);
